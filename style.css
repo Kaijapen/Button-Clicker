@@ -1,0 +1,127 @@
+* {
+    margin: 0 auto;
+    /* border-style: dotted;
+    border-color: aliceblue; */
+}
+
+
+body {
+    background-color: aliceblue
+}
+
+
+.navbar {
+    height: 50px;
+    width: 650px;
+    background-color: darkgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar h1 {
+    margin: 0;
+    margin-left: 10px;
+}
+
+button {
+    width:65px;
+    background-color: aqua;
+    box-shadow: 3px 3px 2px 1px black;
+    cursor: pointer;
+}
+
+.container {
+    background-color: aliceblue;
+    /* height: 700px; */
+    width: 650px;
+    display: flex;
+}
+
+.pgleft {
+    flex: 2;
+
+}
+
+.leftcontent {
+    flex: 1;
+    display: flex;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-style: solid;
+    border-color: #121212;
+}
+
+.entry {
+    flex: 1;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.entry h1 {
+    text-align: center;
+}
+
+
+.entry h3 {
+    font-style: italic;
+    text-align: center;
+}
+
+.plural {
+    margin-left: 24px;
+    margin-bottom: 3px;
+}
+
+.flexme {
+    display: inline;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.entry button {
+    display: flex;
+    width: auto;
+    align-self: center;
+    border-style: solid;
+    margin-top: 5px;
+    border-color: #121212;
+    background-color: darkgoldenrod;
+}
+
+.entrydef {
+    flex: 2;
+}
+
+.def {
+    text-align: center;
+    margin-top: 43px;
+}
+
+.pgright{
+    flex: 1;
+    margin-top: 10px;
+    height: 100px;
+
+    padding: 10px;
+    border-style: solid;
+    border-color: #121212;
+}
+
+.defined {
+    text-align: center;
+    display: inline;
+}
+
+.boldme{
+    font-weight: 600;
+}
+
+.pgright button {
+    margin-top: 5px;
+    margin-left: 30px;
+    width: 150px;
+    background-color: rgb(131, 189, 131);
+}
